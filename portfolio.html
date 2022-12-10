@@ -56,29 +56,27 @@
     </header>
 
     <main>
-      <section>
+      <section class="portfolio-container">
         <div class="container">
           <h1 class="section-title visually-hidden">Portfolio</h1>
           <ul class="button-portfolio">
-            <li><button type="button" class="filter-button">Усі</button></li>
-            <li>
+            <li class="button-portfolio-title">
+              <button type="button" class="filter-button">Усі</button>
+            </li>
+            <li class="button-portfolio-title">
               <button type="button" class="filter-button">Веб-сайти</button>
             </li>
-            <li>
+            <li class="button-portfolio-title">
               <button type="button" class="filter-button">Додатки</button>
             </li>
-            <li>
+            <li class="button-portfolio-title">
               <button type="button" class="filter-button">Дизайн</button>
             </li>
-            <li>
+            <li class="button-portfolio-title">
               <button type="button" class="filter-button">Маркетинг</button>
             </li>
           </ul>
-        </div>
-      </section>
 
-      <section class="portfolio-container">
-        <div class="container">
           <ul class="card-set">
             <li class="portfolio-item">
               <div class="portfolio-box">
@@ -89,8 +87,10 @@
                     width="370"
                     class="portfolio-image"
                   />
-                  <h2 class="portfolio-title">Технокряк</h2>
-                  <p class="portfolio-desc">Веб-сайт</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">Технокряк</h2>
+                    <p class="portfolio-desc">Веб-сайт</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -104,10 +104,12 @@
                     width="370"
                     class="portfolio-image"
                   />
-                  <h2 class="portfolio-title">
-                    Постер New Orlean vs Golden Star
-                  </h2>
-                  <p class="portfolio-desc">Дизайн</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">
+                      Постер New Orlean vs Golden Star
+                    </h2>
+                    <p class="portfolio-desc">Дизайн</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -121,8 +123,10 @@
                     width="370"
                     class="portfolio-image"
                   />
-                  <h2 class="portfolio-title">Ресторан Seafood</h2>
-                  <p class="portfolio-desc">Додаток</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">Ресторан Seafood</h2>
+                    <p class="portfolio-desc">Додаток</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -136,8 +140,10 @@
                     width="370"
                     class="portfolio-image"
                   />
-                  <h2 class="portfolio-title">Проєкт Prime</h2>
-                  <p class="portfolio-desc">Маркетинг</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">Проєкт Prime</h2>
+                    <p class="portfolio-desc">Маркетинг</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -151,8 +157,10 @@
                     width="370"
                     class="portfolio-image"
                   />
-                  <h2 class="portfolio-title">Проєкт Boxes</h2>
-                  <p class="portfolio-desc">Додаток</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">Проєкт Boxes</h2>
+                    <p class="portfolio-desc">Додаток</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -166,8 +174,10 @@
                     width="370"
                     class="portfolio-image"
                   />
-                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                  <p class="portfolio-desc">Веб-сайт</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                    <p class="portfolio-desc">Веб-сайт</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -181,8 +191,10 @@
                     width="370"
                     cclass="portfolio-image"
                   />
-                  <h2 class="portfolio-title">Видання Limited Edition</h2>
-                  <p class="portfolio-desc">Дизайн</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">Видання Limited Edition</h2>
+                    <p class="portfolio-desc">Дизайн</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -196,8 +208,10 @@
                     width="370"
                     class="portfolio-image"
                   />
-                  <h2 class="portfolio-title">Проєкт LAB</h2>
-                  <p class="portfolio-desc">Маркетинг</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">Проєкт LAB</h2>
+                    <p class="portfolio-desc">Маркетинг</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -211,8 +225,10 @@
                     width="370"
                     class="portfolio-image"
                   />
-                  <h2 class="portfolio-title">Growing Business</h2>
-                  <p class="portfolio-desc">Додаток</p>
+                  <div class="portfolio-title-description">
+                    <h2 class="portfolio-title">Growing Business</h2>
+                    <p class="portfolio-desc">Додаток</p>
+                  </div>
                 </a>
               </div>
             </li>
@@ -220,7 +236,6 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo-footer"
@@ -228,7 +243,7 @@
         >
         <address>
           <ul>
-            <li>
+            <li class="footer-links">
               <a
                 href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                 target="_blank"
@@ -237,12 +252,12 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li>
+            <li class="footer-links">
               <a href="mailto:info@devstudio.com" class="adress-link"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="footer-links">
               <a href="tel:+380961111111" class="telephon-link"
                 >+38 096 111 11 11</a
               >
