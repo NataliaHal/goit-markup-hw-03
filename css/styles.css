@@ -31,6 +31,8 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--border-color-header);
+  
+ 
 }
 
 .header-container {
@@ -38,6 +40,9 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 354px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
 }
 
 .header-nav {
@@ -45,21 +50,39 @@ body {
   justify-content: space-between;
   flex-grow: 1;
   align-items: center;
+
+}
+
+.header-menu-title {
+    margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 .header-menu {
   display: flex;
   gap: 50px;
-  margin-top: 0;
-  margin-bottom: 0;
+  align-items: center;
+
 }
 
 .header-contact {
   display: flex;
   align-items: center;
-  gap: 40px;
+  padding-left: 0;
+
+}
+
+.header-contact-title {
   margin-top: 0;
+  margin-right: 50px;
   margin-bottom: 0;
+  margin-left: 0;
+
+}
+
+.header-contact-title:last-child {
+  margin-right: 0;
 }
 
 .logo {
@@ -69,6 +92,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin: 0;
+  padding-left: 0;
+  
 }
 
 .logo-black {
@@ -99,9 +125,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
   display: block;
+
+
 }
 .contact:hover,
 .contact:focus {
@@ -193,7 +220,12 @@ body {
 }
 
 .section {
-  padding: 94px 0;
+padding: 94px 0;
+}
+
+.section-caption {
+padding-top: 0;
+padding-bottom: 94px;
 }
 
 .subject-container {
@@ -357,8 +389,9 @@ body {
 
 .footer {
   background-color: var(--background-color-back);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
+
+  
 }
 
 .logo-footer {
@@ -368,12 +401,12 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  margin-top: 0;
-  margin-bottom: 0;
+margin: 0;
 }
 
 .logo-white {
   color: var(--primary-white-color);
+
 }
 
 .footer-links {
@@ -384,8 +417,8 @@ body {
   margin-bottom: 0;
 }
 
-.footer-links:first-child {
-  margin-top: 28px;
+.footer-adress-title {
+  margin-top: 20px;
 }
 .maps {
   line-height: 24px;
@@ -451,8 +484,8 @@ li {
 }
 
 ul {
-  margin-left: 0;
-  padding-left: 0;
+  margin: 0;
+
 }
 
 a {
